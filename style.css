@@ -1,0 +1,62 @@
+body {
+  font-size: 13px;
+  background-color: #f7f7f7;
+}
+
+th,
+td,
+.table {
+  border: 1px solid #dee2e6;
+  font-size: 13px;
+}
+th:first-child,
+td:first-child {
+  width: 30px;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-collapse {
+  justify-content: space-between;
+  flex-grow: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.input-group {
+  width: 230px;
+}
+
+.form-control,
+.btn-outline-secondary {
+  height: 30px;
+}
+
+td {
+  background-color: #0000000d;
+}
+
+.buttons button,
+.btn.btn-primary {
+  font-size: 10px;
+  background-color: grey;
+  border: none;
+}
+
+.bttn {
+  margin: 0;
+}
+
+.upload {
+  width: 30%;
+}
